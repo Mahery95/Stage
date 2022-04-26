@@ -9,9 +9,13 @@
 
 
 .container{
-    width:30%;
+    width:100%;
     margin: 150px;
 }
+.container-fluid{
+    text-align: right;
+}
+
 button{
     background:#f9eea6;
     border:0;
@@ -38,3 +42,13 @@ h2{
 .title, .home-text{
     margin-top:75px;
     }
+
+.block_social{
+    text-align: right;
+}
+
+.text-reset {
+    --bs-text-opacity: 1;
+    color: inherit!important;
+    text-decoration: none;
+}
