@@ -1,5 +1,5 @@
 .body{
-    background: url('images/background.jpg');
+    
     background-repeat: no-repeat;
     background-size:cover;
     padding:0;
@@ -7,10 +7,18 @@
     font-family:'Poppins';
 }
 
+.box{
+    background: url('images/background.jpg');
+}
 
-.container{
+.bg-light{
+    background-color: transparent !important;
+}
+.container-main{
     width:100%;
-    margin: 150px;
+    padding: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .container-fluid{
     text-align: right;
@@ -51,4 +59,7 @@ h2{
     --bs-text-opacity: 1;
     color: inherit!important;
     text-decoration: none;
+}
+.footer-box .container{
+    margin-top: none;
 }
