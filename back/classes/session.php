@@ -1,0 +1,27 @@
+<?php 
+
+class session {
+    function __construct() {
+        session_start();
+    }
+
+    function set($key, $data) {
+        $_SESSION[$key] = $data;
+    }
+
+    function get($key) {
+        if (isset($_SESSION[$key])){
+            return $_SESSION[$key];
+        }else {
+            return false;
+        }
+        
+    }
+    function destroy(){
+        unset($_SESSION);
+        session_destroy();
+    }
+}
+    
+
+?>
